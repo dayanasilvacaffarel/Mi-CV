@@ -1,0 +1,61 @@
+/* Asterisco aplica a todos los elementos de la página*/
+
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d5e1f5;
+}
+
+.imgRedonda{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+}
+
+#fotoDePerfil{
+    position: relative;
+    width: 25vw;
+    height: 35vh;
+    padding: 12px;
+    margin: 20px;
+}
+
+#nombre{
+    position: absolute;
+    left: 400px;
+    top: 15px;
+    width: 40%;
+    padding: 12px;
+    margin: 20px;
+}
+
+#acercaDeMi{
+    width: 40%;
+    padding: 12px;
+    margin: 20px;
+}
+
+#datosDeContacto{
+    width: 40%;
+    padding: 12px;
+    margin: 20px;
+}
+
+#formacion{
+    width: 40%;
+    padding: 12px;
+    margin: 20px;
+}
+
+#otrosConocimientosEIdiomas{
+    width: 40%;
+    padding: 12px;
+    margin: 20px;
+}
+#experienciaLaboral{
+    width: 40%;
+    padding: 12px;
+    margin: 20px;
+}
